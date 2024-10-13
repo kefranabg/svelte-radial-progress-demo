@@ -32,7 +32,7 @@
 	class="w-screen h-screen bg-gradient-to-r from-sky-500 to-indigo-500 font-mono overflow-scroll"
 >
 	<h1 class="text-white text-4xl font-bold py-4 pt-8 text-center">🤗 Svelte Radial Progress</h1>
-	<div class="p-2 flex flex-wrap justify-evenly">
+	<div class="p-2 flex flex-wrap sm:justify-evenly justify-start">
 		<div class="flex flex-col p-8">
 			<h2 class="text-white text-lg font-bold">Radial progress</h2>
 			<div class="flex mt-2">
@@ -113,7 +113,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="flex items-center justify-center mt-4">
+	<div class="flex items-center justify-center mt-4 mb-4">
 		<div
 			style="height: {containerHeight}px; width: {containerWidth}px;"
 			class="border-2 border-white p-4 rounded-lg"
