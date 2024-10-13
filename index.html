@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/svelte-radial-progress-demo/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link rel="modulepreload" href="/svelte-radial-progress-demo/_app/immutable/entry/start.DRXbekep.js">
+		<link rel="modulepreload" href="/svelte-radial-progress-demo/_app/immutable/chunks/entry.Cb4d2qew.js">
+		<link rel="modulepreload" href="/svelte-radial-progress-demo/_app/immutable/chunks/scheduler.DYmyj1sh.js">
+		<link rel="modulepreload" href="/svelte-radial-progress-demo/_app/immutable/entry/app.CRcjMydn.js">
+		<link rel="modulepreload" href="/svelte-radial-progress-demo/_app/immutable/chunks/index.CQbjDcNK.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">
+			<script>
+				{
+					__sveltekit_tmpqya = {
+						base: "/svelte-radial-progress-demo",
+						assets: "/svelte-radial-progress-demo"
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("/svelte-radial-progress-demo/_app/immutable/entry/start.DRXbekep.js"),
+						import("/svelte-radial-progress-demo/_app/immutable/entry/app.CRcjMydn.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
